@@ -20,6 +20,8 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
+#any project end with .Rproj should ignore
 
 # produced vignettes
 vignettes/*.html
