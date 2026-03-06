@@ -7,4 +7,8 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+getwd()
+d_socialmedia <- read_csv('../data/BES-2017-f2f-gender-fb-tw.csv')
 ```
